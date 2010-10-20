@@ -35,7 +35,7 @@ class EfficientPaginator(Paginator):
 class EfficientChangeList(ChangeList):
     def get_results(self, request):
         paginator = EfficientPaginator(self.query_set, self.list_per_page)
-        result_count = ''
+        result_count = paginator.count
 
         # Get the list of objects to display on this page.
         try:
