@@ -4,7 +4,7 @@ django-db-log
 
 Logs Django exceptions to your database handler.
 
-*This project has been replaced by Sentry (http://github.com/dcramer/django-sentry)*
+*This project has been replaced by Sentry (https://getsentry.com)*
 
 =========
 Upgrading
